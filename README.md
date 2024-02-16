@@ -3,6 +3,8 @@
 ## Description
 This project leverages deep learning techniques to automate the classification of rice leaf diseases, specifically targeting bacterial infections. Utilizing a dataset of rice leaf images, we have developed and compared several convolutional neural network (CNN) models, including custom sequential models and advanced architectures like VGG16, VGG19, and Xception. The goal is to achieve high accuracy in disease identification to support agricultural productivity by enabling early detection and treatment of rice leaf diseases.
 
+![image](Labeled_data.png)
+
 ## Business Case
 Rice leaf diseases, particularly those caused by bacteria, pose a significant threat to rice production, impacting food security and farmers' livelihoods globally. Traditional methods of disease identification rely heavily on expert knowledge, which can be time-consuming and not always accessible. Automating disease detection through machine learning offers a scalable, efficient, and cost-effective solution, potentially transforming agricultural practices by facilitating early and accurate disease management.
 
@@ -17,6 +19,18 @@ Rice leaf diseases, particularly those caused by bacteria, pose a significant th
 
 5. **Model Evaluation:** The notebook details the training process, including hyperparameter tuning and model optimization strategies. Evaluation metrics such as loss and accuracy are used to assess each model's performance, guiding the decision to explore more sophisticated architectures in search of better results.
 
+The model comparision results is as shown:
+### VGG16
+![image](vgg16.png)
+
+### VGG19
+![image](vgg19.png)
+
+### Xception
+![image](xception.png)
+
+### Model Accuracy
+![image](model_acc.png)
 
 The project's findings highlight the potential of deep learning in agricultural diagnostics, offering pathways to integrate these models into mobile applications or cloud-based platforms. Such implementations could provide farmers and agricultural technicians with real-time, accessible tools for rice disease management, ultimately contributing to increased crop yields and sustainability in rice production.
 
